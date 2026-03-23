@@ -1,0 +1,57 @@
+---
+title: "Research"
+---
+
+::: {.hero-section style="min-height: 50vh;"}
+::: {.hero-content}
+[OUR RESEARCH]{.hero-label}
+
+# Pioneering p53 Tumor-Specific Therapeutics
+
+Advancing the frontiers of precision oncology through groundbreaking molecular research and targeted therapy development.
+:::
+:::
+
+::: {.section-intro}
+::: {.container}
+## Our Research Focus
+
+At Institute 53, we are at the forefront of p53 cancer research, developing next-generation therapeutics that selectively target tumor cells while sparing healthy tissue. Our multidisciplinary approach combines molecular biology, computational chemistry, and clinical translation to create safe, effective treatments.
+:::
+:::
+
+::: {.section-pillars}
+::: {.container}
+## Research Areas
+
+::: {.pillars-grid}
+::: {.pillar-card}
+##### p53 Reactivation
+
+Developing small molecules and peptides that restore wild-type p53 function in tumor cells carrying mutant p53, re-enabling the natural tumor suppression pathway.
+:::
+
+::: {.pillar-card}
+##### Targeted Drug Delivery
+
+Engineering novel delivery systems that ensure therapeutic agents reach tumor cells with high specificity, minimizing systemic toxicity and maximizing efficacy.
+:::
+
+::: {.pillar-card}
+##### Biomarker Discovery
+
+Identifying predictive biomarkers for patient stratification, enabling personalized treatment approaches that match patients with the therapies most likely to benefit them.
+:::
+:::
+:::
+:::
+
+::: {.section-translation}
+::: {.container}
+## From Bench to Bedside
+
+Our translational research pipeline moves promising discoveries through preclinical validation and into clinical trials. We work closely with academic partners, pharmaceutical companies, and regulatory agencies to accelerate the path from laboratory breakthrough to approved therapy.
+
+[View Our Publications](publications.qmd){.btn .btn-primary}
+:::
+:::

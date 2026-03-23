@@ -1,0 +1,107 @@
+---
+page-layout: custom
+---
+
+```{=html}
+<div class="hero-section">
+  <div class="hero-content">
+    <span class="hero-label">PIONEERING P53 THERAPEUTICS</span>
+    <h1>The Future of Cancer Research is Here.</h1>
+    <p>Advancing tumor-specific therapies through rigorous scientific education and revolutionary laboratory research to reduce the global cancer burden.</p>
+    <div class="hero-buttons">
+      <a href="research.html" class="btn btn-primary btn-lg">Explore Research</a>
+      <a href="collaborate.html" class="btn btn-outline-light btn-lg">Join the Network</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="stock-microscope.jpg" alt="Microscope">
+  </div>
+</div>
+
+<div class="section-intro">
+  <div class="section-intro-wrapper">
+    <h2>Pioneering the Next Generation of p53 Cancer Therapeutics</h2>
+    <div class="section-intro-image parallax-container">
+      <img src="stock-cell.jpg" alt="Cell research" class="parallax-image">
+    </div>
+    <div class="section-intro-content">
+      <p>At Institute 53, our core objective is to reduce the global cancer burden by engineering safe, tumor-specific therapies. We bridge the gap between scientific discovery and effective clinical translation, providing advanced education for scientists to transform medical advancements into life-saving realities globally.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const parallaxImage = document.querySelector('.section-intro .parallax-image');
+  const container = document.querySelector('.section-intro');
+  
+  window.addEventListener('scroll', function() {
+    const rect = container.getBoundingClientRect();
+    const scrolled = window.scrollY;
+    const containerTop = container.offsetTop;
+    const speed = 0.3;
+    
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      const yPos = (scrolled - containerTop) * speed;
+      parallaxImage.style.transform = 'translateY(' + yPos + 'px)';
+    }
+  });
+});
+</script>
+```
+
+::: {.section-translation}
+::: {.container}
+[ACADEMIC RIGOR]{.section-label}
+
+## Scientific Translation
+
+We bridge the gap between visionary discovery and clinical reality by providing rigorous educational frameworks for the world's leading scientists. Our programs are designed to accelerate the transformation of p53 research into tumor-specific therapies that redefine the global standard of oncological care.
+
+[Explore Curriculum](education.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.section-network}
+::: {.container}
+## Pioneering p53 Tumor-Specific Therapeutics
+
+Leading the global fight against cancer, Institute 53 focuses on the next generation of therapeutics that selectively target tumor cells through p53 reactivation. Our research translates groundbreaking molecular chemistry into safe, effective clinical potentials, aiming to reduce the global burden of cancer through innovation and precision.
+
+::: {.marquee}
+COLLABORATE • INNOVATE • TRANSLATE • COLLABORATE • INNOVATE • TRANSLATE
+:::
+
+## Join the Network
+
+[Become a Collaborator](collaborate.qmd){.btn .btn-primary .btn-lg}
+:::
+:::
+
+::: {.section-pillars}
+::: {.container}
+[INSTITUTE 53 STRATEGIC PILLARS]{.section-label}
+
+## Transforming Tumor Biology into Targeted Therapies
+
+::: {.pillars-grid}
+::: {.pillar-card}
+##### Precision Oncology
+
+Restoring the tumor-suppressive power of p53 to develop therapies that target cancer cells with unmatched genomic precision.
+:::
+
+::: {.pillar-card}
+##### World-Class Education
+
+Providing rigorous academic programs that equip the next generation of global researchers to translate breakthroughs into effective therapies.
+:::
+
+::: {.pillar-card}
+##### Global Translation
+
+Driving the reach of oncology advancements to healthcare systems worldwide, reducing the global cancer burden through strategic translation.
+:::
+:::
+:::
+:::

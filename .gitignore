@@ -1,0 +1,17 @@
+# Quarto output
+_site/
+_freeze/
+.quarto/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local

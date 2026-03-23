@@ -1,0 +1,61 @@
+---
+title: "Collaborate"
+---
+
+::: {.hero-section style="min-height: 50vh;"}
+::: {.hero-content}
+[PARTNERSHIPS]{.hero-label}
+
+# Join the Network
+
+Collaborate with Institute 53 to accelerate the development of tumor-specific therapies.
+:::
+:::
+
+::: {.section-intro}
+::: {.container}
+## Become a Collaborator
+
+Institute 53 partners with academic institutions, pharmaceutical companies, healthcare systems, and philanthropic organizations worldwide. Together, we are building a global network dedicated to eliminating cancer through p53-targeted therapeutics.
+:::
+:::
+
+::: {.section-pillars}
+::: {.container}
+## Partnership Opportunities
+
+::: {.pillars-grid}
+::: {.pillar-card}
+##### Academic Partnerships
+
+Joint research initiatives with universities and research institutions. Share resources, exchange researchers, and co-develop breakthrough therapies.
+:::
+
+::: {.pillar-card}
+##### Industry Collaboration
+
+Strategic partnerships with pharmaceutical and biotech companies for drug development, licensing, and clinical trials.
+:::
+
+::: {.pillar-card}
+##### Healthcare Networks
+
+Collaborate with healthcare systems to ensure our therapies reach patients worldwide, with particular focus on underserved regions.
+:::
+:::
+:::
+:::
+
+::: {.section-translation}
+::: {.container}
+::: {.marquee}
+COLLABORATE • INNOVATE • TRANSLATE • COLLABORATE • INNOVATE • TRANSLATE
+:::
+
+## Ready to Partner?
+
+We welcome inquiries from organizations aligned with our mission to reduce the global cancer burden through innovative, tumor-specific therapies.
+
+[Contact Our Team](contact.qmd){.btn .btn-primary .btn-lg}
+:::
+:::

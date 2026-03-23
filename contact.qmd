@@ -1,0 +1,60 @@
+---
+title: "Contact"
+---
+
+::: {.hero-section style="min-height: 40vh;"}
+::: {.hero-content}
+[GET IN TOUCH]{.hero-label}
+
+# Contact Institute 53
+
+We'd love to hear from you.
+:::
+:::
+
+::: {.section-intro}
+::: {.container}
+## Connect With Us
+
+Whether you're a researcher, potential collaborator, or simply want to learn more about our work, we welcome your inquiry.
+
+::: {.pillars-grid}
+::: {.pillar-card}
+##### Headquarters
+
+53 Research Way  
+Kendall Square  
+Cambridge, MA 02142  
+United States
+:::
+
+::: {.pillar-card}
+##### Contact
+
+**Email:** global@institute53.org  
+**Phone:** +1 (617) 555-0153  
+**Fax:** +1 (617) 555-0154
+:::
+
+::: {.pillar-card}
+##### Follow Us
+
+Connect with Institute 53 on social media for the latest research updates, events, and news.
+
+[Facebook](https://facebook.com) | [LinkedIn](https://linkedin.com) | [X](https://x.com)
+:::
+:::
+:::
+:::
+
+::: {.section-translation}
+::: {.container}
+## General Inquiries
+
+For general inquiries, partnership proposals, or media requests, please email us at **global@institute53.org**. Our team typically responds within 2-3 business days.
+
+For educational program applications, visit our [Education](education.qmd) page.
+
+For collaboration opportunities, visit our [Collaborate](collaborate.qmd) page.
+:::
+:::

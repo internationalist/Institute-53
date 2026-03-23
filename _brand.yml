@@ -1,0 +1,27 @@
+# _brand.yml - Define your brand identity
+color:
+  palette:
+    primary-dark: "#1a1a1a"
+    primary-blue: "#0066cc"
+    accent-gold: "#d4af37"
+    light-bg: "#f8f9fa"
+    text-dark: "#212529"
+    text-light: "#6c757d"
+  
+  background: light-bg
+  foreground: text-dark
+  primary: primary-blue
+  secondary: accent-gold
+
+typography:
+  fonts:
+    - family: "Inter"
+      source: google
+    - family: "Space Grotesk"
+      source: google
+  
+  base:
+    family: Inter
+  headings:
+    family: "Space Grotesk"
+    weight: 700

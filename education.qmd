@@ -1,0 +1,57 @@
+---
+title: "Education"
+---
+
+::: {.hero-section style="min-height: 50vh;"}
+::: {.hero-content}
+[ACADEMIC PROGRAMS]{.hero-label}
+
+# World-Class Scientific Education
+
+Equipping the next generation of researchers to translate p53 breakthroughs into life-saving therapies.
+:::
+:::
+
+::: {.section-intro}
+::: {.container}
+## Scientific Translation Curriculum
+
+We provide rigorous educational frameworks for the world's leading scientists. Our programs are designed to accelerate the transformation of p53 research into tumor-specific therapies that redefine the global standard of oncological care.
+:::
+:::
+
+::: {.section-pillars}
+::: {.container}
+## Our Programs
+
+::: {.pillars-grid}
+::: {.pillar-card}
+##### Graduate Fellowship
+
+A comprehensive two-year fellowship program for doctoral candidates focused on p53 biology and cancer therapeutics. Fellows receive mentorship from world-renowned scientists and access to cutting-edge research facilities.
+:::
+
+::: {.pillar-card}
+##### Clinical Translation Workshop
+
+Intensive workshop series for researchers transitioning discoveries from bench to bedside. Topics include regulatory pathways, clinical trial design, and partnership development.
+:::
+
+::: {.pillar-card}
+##### Global Research Exchange
+
+International exchange program connecting Institute 53 researchers with leading cancer centers worldwide, fostering collaboration and knowledge transfer across borders.
+:::
+:::
+:::
+:::
+
+::: {.section-network}
+::: {.container}
+## Apply Today
+
+Join a community of exceptional scientists dedicated to reducing the global cancer burden. Applications are reviewed on a rolling basis.
+
+[Submit Application](contact.qmd){.btn .btn-primary .btn-lg}
+:::
+:::

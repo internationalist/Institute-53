@@ -1,0 +1,510 @@
+/* Institute 53 - Custom Styles */
+
+/* ===== CSS Variables ===== */
+:root {
+  --primary-dark: #1a1a1a;
+  --primary-blue: #0066cc;
+  --accent-gold: #d4af37;
+  --light-bg: #f8f9fa;
+  --text-dark: #212529;
+  --text-light: #6c757d;
+  --white: #ffffff;
+}
+
+/* ===== Navbar Logo ===== */
+.navbar-brand img {
+  height: 45px;
+  max-height: 45px;
+}
+
+/* ===== Global Styles ===== */
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  overflow-x: hidden;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Override Quarto containers for full-width sections */
+#quarto-content,
+.page-layout-custom,
+main {
+  padding: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  background-color: #1a1a1a !important;
+}
+
+#quarto-content.page-layout-custom {
+  padding: 0 !important;
+}
+
+.quarto-container {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+/* Remove gaps between raw HTML blocks */
+.cell-output-display,
+.sourceCode,
+.cell {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Hide any hr separators */
+hr {
+  display: none;
+}
+
+/* Remove margin from content wrapper paragraphs */
+#quarto-content > * {
+  margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #00d4ff;
+  color: #1a1a1a;
+  border: 2px solid #00d4ff;
+}
+
+.btn-primary:hover {
+  background-color: #00b8e0;
+  border-color: #00b8e0;
+}
+
+.btn-outline-light {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.btn-outline-light:hover {
+  background-color: var(--white);
+  color: var(--primary-dark);
+}
+
+.btn-lg {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+
+/* ===== Section Labels ===== */
+.section-label,
+.hero-label {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00d4ff;
+  margin-bottom: 1rem;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: #1a1a1a;
+  color: var(--white);
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.hero-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 4rem 4rem 6rem;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 550px;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* ===== Intro Section ===== */
+.section-intro {
+  background-color: #1a1a1a;
+  color: var(--white);
+  padding: 4rem 0 6rem;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.section-intro-wrapper {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-intro-image {
+  width: 70%;
+  margin-left: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.section-intro-image.parallax-container {
+  height: 500px;
+}
+
+.section-intro-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-intro-image img.parallax-image {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 150px);
+  object-fit: cover;
+  will-change: transform;
+}
+
+.section-intro-content {
+  position: absolute;
+  bottom: -2rem;
+  left: 2rem;
+  width: 55%;
+  background-color: rgba(20, 30, 40, 0.95);
+  padding: 3rem;
+  border-radius: 4px;
+}
+
+.section-intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--white);
+  padding-left: 1.5rem;
+  border-left: 4px solid #00d4ff;
+}
+
+.section-intro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
+  color: rgba(255,255,255,0.8);
+}
+
+/* ===== Translation Section ===== */
+.section-translation {
+  background-color: #1a1a1a;
+  color: var(--white);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.section-translation h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+}
+
+.section-translation p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  color: rgba(255,255,255,0.8);
+}
+
+/* ===== Network Section ===== */
+.section-network {
+  background-color: #1a1a1a;
+  color: var(--white);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.section-network h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-network p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  opacity: 0.9;
+}
+
+/* ===== Marquee ===== */
+.marquee {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #00d4ff;
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ===== Pillars Section ===== */
+.section-pillars {
+  background-color: #1a1a1a;
+  color: var(--white);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.section-pillars h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--white);
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.pillar-card {
+  background-color: #2d2d2d;
+  padding: 2.5rem;
+  border-radius: 8px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.pillar-card h5 {
+  font-size: 1.25rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.pillar-card p {
+  color: rgba(255,255,255,0.8);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ===== Footer ===== */
+.footer-section {
+  background-color: var(--primary-dark);
+  color: var(--white);
+  padding: 4rem 2rem 2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-col h6 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-bottom: 1rem;
+}
+
+.footer-col p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.footer-col a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+  color: var(--primary-blue);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: var(--primary-blue);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 2rem;
+  text-align: center;
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+.footer-bottom a {
+  color: #888888;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.footer-bottom a:hover {
+  color: var(--white);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .hero-content {
+    width: 100%;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    order: 2;
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .hero-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    order: 1;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.25rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+  
+  .section-intro-wrapper {
+    padding: 0 1rem;
+  }
+  
+  .section-intro-image {
+    width: 100%;
+  }
+  
+  .section-intro-image.parallax-container {
+    height: 300px;
+  }
+  
+  .section-intro-content {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    margin-top: -2rem;
+    padding: 2rem 1.5rem;
+  }
+  
+  .section-intro h2,
+  .section-translation h2,
+  .section-network h2,
+  .section-pillars h2 {
+    font-size: 1.75rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+}

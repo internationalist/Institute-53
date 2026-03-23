@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  description: "Pioneering p53 Tumor-Specific Therapeutics"
+  navbar:
+    background: "#1a1a1a"
+    foreground: "#ffffff"
+    logo: logo.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Education"
+        href: education.qmd
+      - text: "Collaborate"
+        href: collaborate.qmd
+    right:
+      - icon: facebook
+        href: https://facebook.com
+      - icon: linkedin
+        href: https://linkedin.com
+      - icon: twitter-x
+        href: https://x.com
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    background: "#1a1a1a"
+    foreground: "#cccccc"
+    left: |
+      **HEADQUARTERS**<br>
+      53 Research Way, Kendall Square<br>
+      Cambridge, MA 02142
+    center: |
+      © 2026 Institute 53: Advancing p53 Cancer Therapeutics.<br>
+      All rights reserved.
+    right: |
+      **CONTACT**<br>
+      global@institute53.org<br>
+      +1 (617) 555-0153
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
