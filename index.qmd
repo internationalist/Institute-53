@@ -14,7 +14,7 @@ page-layout: custom
     </div>
   </div>
   <div class="hero-image">
-    <img src="stock-microscope.jpg" alt="Microscope">
+    <img src="images/stock-microscope.jpg" alt="Microscope">
   </div>
 </div>
 
@@ -22,7 +22,7 @@ page-layout: custom
   <div class="section-intro-wrapper">
     <h2>Pioneering the Next Generation of p53 Cancer Therapeutics</h2>
     <div class="section-intro-image parallax-container">
-      <img src="stock-cell.jpg" alt="Cell research" class="parallax-image">
+      <img src="images/stock-cell.jpg" alt="Cell research" class="parallax-image">
     </div>
     <div class="section-intro-content">
       <p>At Institute 53, our core objective is to reduce the global cancer burden by engineering safe, tumor-specific therapies. We bridge the gap between scientific discovery and effective clinical translation, providing advanced education for scientists to transform medical advancements into life-saving realities globally.</p>
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```{=html}
 <div class="section-translation">
   <div class="translation-image">
-    <img src="dna-1.jpg" alt="DNA Helix">
+    <img src="images/dna-1.jpg" alt="DNA Helix">
   </div>
   <div class="translation-content">
     <span class="section-label">ACADEMIC RIGOR</span>
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```{=html}
 <div class="section-network">
   <div class="network-image">
-    <img src="dna-2.jpg" alt="DNA Research">
+    <img src="images/dna-2.jpg" alt="DNA Research">
   </div>
   <div class="network-content">
     <h2>Pioneering p53 Tumor-Specific Therapeutics</h2>
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ::: {.pillars-grid}
 ::: {.pillar-card}
-![](cell.png)
+![](images/cell.png)
 
 ##### Precision Oncology
 
@@ -99,7 +99,7 @@ Restoring the tumor-suppressive power of p53 to develop therapies that target ca
 :::
 
 ::: {.pillar-card}
-![](neucleus.png)
+![](images/neucleus.png)
 
 ##### World-Class Education
 
@@ -107,7 +107,7 @@ Providing rigorous academic programs that equip the next generation of global re
 :::
 
 ::: {.pillar-card}
-![](globe.png)
+![](images/globe.png)
 
 ##### Global Translation
 

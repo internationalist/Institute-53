@@ -6,7 +6,7 @@ website:
   navbar:
     background: "#1a1a1a"
     foreground: "#ffffff"
-    logo: logo.png
+    logo: images/logo.png
     left:
       - text: "Home"
         href: index.qmd
@@ -26,43 +26,19 @@ website:
       - text: "Contact"
         href: contact.qmd
   page-footer:
-    background: "#020a24"
-    foreground: "#b8c3da"
+    background: "#1a1a1a"
+    foreground: "#cccccc"
     left: |
-      <div class="footer-brand-block">
-        <a href="index.html" class="footer-brand-link">
-          <img src="logo.png" alt="Institute 53 logo" class="footer-brand-logo" style="width: 120px; height: auto; max-width: none;">
-        </a>
-        <p>Institute 53 is a leading global research organization dedicated to pioneering p53 tumor-specific therapies and advancing scientific education to reduce the global cancer burden.</p>
-      </div>
+      **HEADQUARTERS**<br>
+      53 Research Way, Kendall Square<br>
+      Cambridge, MA 02142
     center: |
-      <div class="footer-col-block">
-        <h6>HEADQUARTERS</h6>
-        <p>53 Research Way<br>
-        Kendall Square<br>
-        Cambridge, MA 02142<br>
-        United States</p>
-      </div>
+      © 2026 Institute 53: Advancing p53 Cancer Therapeutics.<br>
+      All rights reserved.
     right: |
-      <div class="footer-right-grid">
-      <div class="footer-col-block">
-      <h6>CONTACT</h6>
-      <p>E: global@institute53.org<br>
-      T: +1 (617) 555-0153<br>
-      F: +1 (617) 555-0154</p>
-      </div>
-      <div class="footer-col-block">
-      <h6>CONNECT</h6>
-      <div class="footer-socials">
-      <a href="https://facebook.com" class="footer-social social-facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-      <a href="https://instagram.com" class="footer-social social-instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-      <a href="https://youtube.com" class="footer-social social-youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-      <a href="https://x.com" class="footer-social social-x" aria-label="X"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://linkedin.com" class="footer-social social-linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-      <a href="https://tiktok.com" class="footer-social social-tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-      </div>
-      </div>
-      </div>
+      **CONTACT**<br>
+      global@institute53.org<br>
+      +1 (617) 555-0153
 
 format:
   html:
