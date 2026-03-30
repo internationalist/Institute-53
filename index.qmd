@@ -50,33 +50,38 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 ```
 
-::: {.section-translation}
-::: {.container}
-[ACADEMIC RIGOR]{.section-label}
+```{=html}
+<div class="section-translation">
+  <div class="translation-image">
+    <img src="dna-1.jpg" alt="DNA Helix">
+  </div>
+  <div class="translation-content">
+    <span class="section-label">ACADEMIC RIGOR</span>
+    <h2>Scientific Translation</h2>
+    <p>We bridge the gap between visionary discovery and clinical reality by providing rigorous educational frameworks for the world's leading scientists. Our programs are designed to accelerate the transformation of p53 research into tumor-specific therapies that redefine the global standard of oncological care.</p>
+    <a href="education.html" class="btn btn-outline-light btn-lg">ExploreCurriculum</a>
+  </div>
+</div>
+```
 
-## Scientific Translation
+```{=html}
+<div class="section-network">
+  <div class="network-image">
+    <img src="dna-2.jpg" alt="DNA Research">
+  </div>
+  <div class="network-content">
+    <h2>Pioneering p53 Tumor-Specific Therapeutics</h2>
+    <p>Leading the global fight against cancer, Institute 53 focuses on the next generation of therapeutics that selectively target tumor cells through p53 reactivation. Our research translates groundbreaking molecular chemistry into safe, effective clinical potentials, aiming to reduce the global burden of cancer through innovation and precision.</p>
+  </div>
+</div>
+```
 
-We bridge the gap between visionary discovery and clinical reality by providing rigorous educational frameworks for the world's leading scientists. Our programs are designed to accelerate the transformation of p53 research into tumor-specific therapies that redefine the global standard of oncological care.
-
-[Explore Curriculum](education.qmd){.btn .btn-primary}
-:::
-:::
-
-::: {.section-network}
-::: {.container}
-## Pioneering p53 Tumor-Specific Therapeutics
-
-Leading the global fight against cancer, Institute 53 focuses on the next generation of therapeutics that selectively target tumor cells through p53 reactivation. Our research translates groundbreaking molecular chemistry into safe, effective clinical potentials, aiming to reduce the global burden of cancer through innovation and precision.
-
-::: {.marquee}
-COLLABORATE • INNOVATE • TRANSLATE • COLLABORATE • INNOVATE • TRANSLATE
-:::
-
-## Join the Network
-
-[Become a Collaborator](collaborate.qmd){.btn .btn-primary .btn-lg}
-:::
-:::
+```{=html}
+<div class="section-join">
+  <h2>Join the Network</h2>
+  <a href="collaborate.html" class="btn btn-primary btn-lg">Become a Collaborator</a>
+</div>
+```
 
 ::: {.section-pillars}
 ::: {.container}
@@ -86,18 +91,24 @@ COLLABORATE • INNOVATE • TRANSLATE • COLLABORATE • INNOVATE • TRANSLAT
 
 ::: {.pillars-grid}
 ::: {.pillar-card}
+![](cell.png)
+
 ##### Precision Oncology
 
 Restoring the tumor-suppressive power of p53 to develop therapies that target cancer cells with unmatched genomic precision.
 :::
 
 ::: {.pillar-card}
+![](neucleus.png)
+
 ##### World-Class Education
 
 Providing rigorous academic programs that equip the next generation of global researchers to translate breakthroughs into effective therapies.
 :::
 
 ::: {.pillar-card}
+![](globe.png)
+
 ##### Global Translation
 
 Driving the reach of oncology advancements to healthcare systems worldwide, reducing the global cancer burden through strategic translation.

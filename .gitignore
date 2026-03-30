@@ -11,7 +11,11 @@ Thumbs.db
 *.swp
 *.swo
 *~
+*.code-workspace
 
 # Environment
 .env
 .env.local
+
+/.quarto/
+**/*.quarto_ipynb
