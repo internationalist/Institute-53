@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,14 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f73cf3999ce13913a70669a6e1bc6bd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-f73cf3999ce13913a70669a6e1bc6bd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-f73cf3999ce13913a70669a6e1bc6bd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1a43a5e6cdebe2d4e3dd84a27151e0a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1a43a5e6cdebe2d4e3dd84a27151e0a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1a43a5e6cdebe2d4e3dd84a27151e0a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -206,6 +206,52 @@ document.addEventListener('DOMContentLoaded', function() {
     <a href="education.html" class="btn btn-outline-light btn-lg">ExploreCurriculum</a>
   </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const translationImage = document.querySelector('.section-translation .translation-image img');
+  const translationContainer = document.querySelector('.section-translation');
+  
+  let animationTriggered = false;
+  
+  function startUnfurlAnimation() {
+    if (animationTriggered) return;
+    animationTriggered = true;
+    
+    let clipPercent = 100;
+    const duration = 1500; // 1.5 seconds
+    const startTime = Date.now();
+    
+    function animate() {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      // Easing function for smooth animation
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      clipPercent = 100 * (1 - easeOut);
+      
+      translationImage.style.clipPath = `inset(0 ${clipPercent}% 0 0)`;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    }
+    
+    requestAnimationFrame(animate);
+  }
+  
+  window.addEventListener('scroll', function() {
+    if (animationTriggered) return;
+    
+    const rect = translationContainer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // Trigger when section is 10% into viewport
+    if (rect.top <= windowHeight * 0.9 && rect.bottom > 0) {
+      startUnfurlAnimation();
+    }
+  });
+});
+</script>
 <div class="section-network">
   <div class="network-image">
     <img src="images/dna-2.jpg" alt="DNA Research">
@@ -215,6 +261,52 @@ document.addEventListener('DOMContentLoaded', function() {
     <p>Leading the global fight against cancer, Institute 53 focuses on the next generation of therapeutics that selectively target tumor cells through p53 reactivation. Our research translates groundbreaking molecular chemistry into safe, effective clinical potentials, aiming to reduce the global burden of cancer through innovation and precision.</p>
   </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const networkImage = document.querySelector('.section-network .network-image img');
+  const networkContainer = document.querySelector('.section-network');
+  
+  let networkAnimationTriggered = false;
+  
+  function startNetworkUnfurlAnimation() {
+    if (networkAnimationTriggered) return;
+    networkAnimationTriggered = true;
+    
+    let clipPercent = 100;
+    const duration = 1800; // 1.8 seconds (slightly longer for variety)
+    const startTime = Date.now();
+    
+    function animate() {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      // Easing function for smooth animation
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      clipPercent = 100 * (1 - easeOut);
+      
+      networkImage.style.clipPath = `inset(0 ${clipPercent}% 0 0)`;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    }
+    
+    requestAnimationFrame(animate);
+  }
+  
+  window.addEventListener('scroll', function() {
+    if (networkAnimationTriggered) return;
+    
+    const rect = networkContainer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // Trigger when section is 15% into viewport (slightly different timing)
+    if (rect.top <= windowHeight * 0.85 && rect.bottom > 0) {
+      startNetworkUnfurlAnimation();
+    }
+  });
+});
+</script>
 <div class="section-join">
   <h2>Join the Network</h2>
   <a href="collaborate.html" class="btn btn-primary btn-lg">Become a Collaborator</a>
@@ -327,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/internationalist\.github\.io\/Institute-53\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
