@@ -65,6 +65,55 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const translationImage = document.querySelector('.section-translation .translation-image img');
+  const translationContainer = document.querySelector('.section-translation');
+  
+  let animationTriggered = false;
+  
+  function startUnfurlAnimation() {
+    if (animationTriggered) return;
+    animationTriggered = true;
+    
+    let clipPercent = 100;
+    const duration = 1500; // 1.5 seconds
+    const startTime = Date.now();
+    
+    function animate() {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      // Easing function for smooth animation
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      clipPercent = 100 * (1 - easeOut);
+      
+      translationImage.style.clipPath = `inset(0 ${clipPercent}% 0 0)`;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    }
+    
+    requestAnimationFrame(animate);
+  }
+  
+  window.addEventListener('scroll', function() {
+    if (animationTriggered) return;
+    
+    const rect = translationContainer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // Trigger when section is 10% into viewport
+    if (rect.top <= windowHeight * 0.9 && rect.bottom > 0) {
+      startUnfurlAnimation();
+    }
+  });
+});
+</script>
+```
+
+```{=html}
 <div class="section-network">
   <div class="network-image">
     <img src="images/dna-2.jpg" alt="DNA Research">
@@ -74,6 +123,55 @@ document.addEventListener('DOMContentLoaded', function() {
     <p>Leading the global fight against cancer, Institute 53 focuses on the next generation of therapeutics that selectively target tumor cells through p53 reactivation. Our research translates groundbreaking molecular chemistry into safe, effective clinical potentials, aiming to reduce the global burden of cancer through innovation and precision.</p>
   </div>
 </div>
+```
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const networkImage = document.querySelector('.section-network .network-image img');
+  const networkContainer = document.querySelector('.section-network');
+  
+  let networkAnimationTriggered = false;
+  
+  function startNetworkUnfurlAnimation() {
+    if (networkAnimationTriggered) return;
+    networkAnimationTriggered = true;
+    
+    let clipPercent = 100;
+    const duration = 1800; // 1.8 seconds (slightly longer for variety)
+    const startTime = Date.now();
+    
+    function animate() {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      // Easing function for smooth animation
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      clipPercent = 100 * (1 - easeOut);
+      
+      networkImage.style.clipPath = `inset(0 ${clipPercent}% 0 0)`;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    }
+    
+    requestAnimationFrame(animate);
+  }
+  
+  window.addEventListener('scroll', function() {
+    if (networkAnimationTriggered) return;
+    
+    const rect = networkContainer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // Trigger when section is 15% into viewport (slightly different timing)
+    if (rect.top <= windowHeight * 0.85 && rect.bottom > 0) {
+      startNetworkUnfurlAnimation();
+    }
+  });
+});
+</script>
 ```
 
 ```{=html}

@@ -1,5 +1,10 @@
 /* Institute 53 - Custom Styles */
 
+/* ===== Hide Page Title ===== */
+header#title-block-header.quarto-title-block {
+  display: none !important;
+}
+
 /* ===== CSS Variables ===== */
 :root {
   --primary-dark: #1a1a1a;
@@ -121,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-label,
 .hero-label {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -263,10 +268,11 @@ h1, h2, h3, h4, h5, h6 {
 .section-translation {
   display: flex;
   background-color: #1a1a1a;
+  color: #ffffff;
 }
 
 .translation-image {
-  width: 45%;
+  width: 50%;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -277,16 +283,17 @@ h1, h2, h3, h4, h5, h6 {
 .translation-image img {
   width: 100%;
   height: auto;
+  max-height: 70vh;
   object-fit: contain;
   display: block;
 }
 
 .translation-content {
-  width: 55%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 5rem;
+  padding: 4rem 3rem 4rem 3rem;
   background-color: #1a1a1a;
 }
 
@@ -340,10 +347,11 @@ h1, h2, h3, h4, h5, h6 {
 .section-network {
   display: flex;
   background-color: #1a1a1a;
+  color: #ffffff;
 }
 
 .network-image {
-  width: 45%;
+  width: 50%;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -354,16 +362,18 @@ h1, h2, h3, h4, h5, h6 {
 .network-image img {
   width: 100%;
   height: auto;
+  max-height: 85vh;
   object-fit: contain;
   display: block;
+  clip-path: inset(0 100% 0 0);
 }
 
 .network-content {
-  width: 55%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 5rem;
+  padding: 4rem 3rem 4rem 3rem;
   background-color: #1a1a1a;
 }
 
@@ -712,6 +722,8 @@ h1, h2, h3, h4, h5, h6 {
   .network-image {
     width: 100%;
     height: 400px;
+    padding: 2rem 0;
+    margin-left: 0;
   }
   
   .network-content {
