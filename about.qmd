@@ -1,0 +1,79 @@
+---
+title: "About"
+---
+
+::: {.hero-section style="min-height: 0; padding: 4rem 6rem;"}
+::: {.hero-content style="width: 100%;"}
+
+# About Institute 53
+
+Driven by science. Defined by purpose.
+:::
+:::
+
+::: {.section-intro style="padding-top: 1.5rem;"}
+::: {.container}
+## Our Story
+
+Institute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded by [Dr. Sumitra Deb](https://www.linkedin.com/in/sumitra-deb-09889610/?skipRedirect=true), Institute 53 represents the culmination of over 40 years of dedicated p53 research, bringing together world-class scientists to translate fundamental discoveries into life-saving therapies.
+
+Our institute operates at the intersection of molecular biology, genomics, and clinical oncology, with a singular focus: to harness the dual nature of p53 and turn cancer's own mechanisms against itself.
+:::
+:::
+
+::: {.section-translation}
+::: {.container}
+## Our Mission
+
+[OUR MISSION]{.section-label}
+
+To pioneer the next generation of p53 tumor-specific therapeutics — transforming decades of molecular discovery into targeted cancer treatments that reduce the global burden of this disease.
+
+::: {.pillars-grid}
+::: {.pillar-card}
+![](images/cell.png)
+
+##### The Science
+
+We focus on Gain-Of-Function (GOF) p53 mutations — missense mutations that not only eliminate p53's tumor suppressor function but actively drive cancer development, metastasis, and drug resistance. By understanding this mechanism, we engineer therapeutically beneficial genes driven by GOF mutated p53 to create cancer-killing agents.
+:::
+
+::: {.pillar-card}
+![](images/globe.png)
+
+##### The Vision
+
+A world where p53 mutations — present in more than 50% of all human cancers — are no longer a death sentence, but a targetable vulnerability. Institute 53 is building the science, the tools, and the partnerships to make this vision a reality.
+:::
+:::
+:::
+:::
+
+::: {.section-pillars}
+::: {.container}
+[LEADERSHIP]{.section-label}
+
+## Governing Board
+
+::: {.founder-bio}
+- **John Minna MD** (University of Texas Southwestern Medical Center, [link](https://utswmed.org/doctors/john-minna/))
+- **Jack Roth, MD FACS** (MD Anderson Cancer Center, [link](https://faculty.mdanderson.org/profiles/jack_roth.html))
+- **Hua Lu, MB, PhD** (Tulane University, [link](https://medicine.tulane.edu/departments/biochemistry-molecular-biology-diabetes-research-tulane-center-aging-tulane-cancer/hua-lu-mb))
+- **Andrei Bakin, PhD** (Roswell Park Comprehensive Cancer Center, [link](https://www.roswellpark.org/andrei-bakin))
+- **Stephen Jones, PhD** (Frederick National Laboratory for Cancer Research, [link](https://frederick.cancer.gov/about/leadership/stephen-jones)) **PRESIDENT**
+- **Geovanni Blandino, MD** (Regina Elena National Cancer Institute, Rome, ITALY, [link](https://www.icgeb.org/giovanni-blandino/))
+- **Roger Abounader, M.D., Ph.D.** (UVA Cancer Center, Associate Director of Basic Sciences, [link](https://www.uvahealth.com/support/cancer/associate-director-basic-science))
+- **Ahmad Waseem PhD FHEA Sigma Xi**, Emeritus Professor of Molecular and Cellular Oral Biology, Chair of the Board of Trustees, Friends of Researchers in the Indian subcontinent.
+- **Andrew Yeudall DDS, PhD** (Augusta University, [link](https://www.augusta.edu/faculty/directory/view.php?id=wyeudall)) **TREASURER**
+- **Swati Palit Deb, PhD** (Virginia Common University, [link](https://medschool.vcu.edu/about/portfolio/details/spdeb/))
+- **Sumitra Deb, PhD** (Institute 53: Advancing p53 Cancer Therapeutics) **SECRETARY**
+- **Brad Windle, PhD** (Institute 53: Advancing p53 Cancer Therapeutics)
+- **Arnab Roy** (Priceline)
+:::
+:::
+:::
+
+::: {.section-join}
+## Want to Learn More?
+<a href="contact.html" class="btn btn-primary btn-lg">Get in Touch</a>
+:::
