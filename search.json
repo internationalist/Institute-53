@@ -21,32 +21,39 @@
     "text": "Transforming Tumor Biology into Targeted Therapies\n\n\n\n\nPrecision Oncology\nRestoring the tumor-suppressive power of p53 to develop therapies that target cancer cells with unmatched genomic precision.\n\n\n\n\n\n\nGlobal Translation\nDriving the reach of oncology advancements to healthcare systems worldwide, reducing the global cancer burden through strategic translation."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "OUR RESEARCH\n\n\nAdvancing the frontiers of precision oncology through groundbreaking molecular research and targeted therapy development."
+    "text": "Driven by science. Defined by purpose."
   },
   {
-    "objectID": "research.html#our-research-focus",
-    "href": "research.html#our-research-focus",
-    "title": "Research",
-    "section": "Our Research Focus",
-    "text": "Our Research Focus\nAt Institute 53, we are at the forefront of p53 cancer research, developing next-generation therapeutics that selectively target tumor cells while sparing healthy tissue. Our multidisciplinary approach combines molecular biology, computational chemistry, and clinical translation to create safe, effective treatments."
+    "objectID": "about.html#our-story",
+    "href": "about.html#our-story",
+    "title": "About",
+    "section": "Our Story",
+    "text": "Our Story\nInstitute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded by Dr. Sumitra Deb, Institute 53 represents the culmination of over 40 years of dedicated p53 research, bringing together world-class scientists to translate fundamental discoveries into life-saving therapies.\nOur institute operates at the intersection of molecular biology, genomics, and clinical oncology, with a singular focus: to harness the dual nature of p53 and turn cancer’s own mechanisms against itself."
   },
   {
-    "objectID": "research.html#research-areas",
-    "href": "research.html#research-areas",
-    "title": "Research",
-    "section": "Research Areas",
-    "text": "Research Areas\n\n\np53 Reactivation\nDeveloping small molecules and peptides that restore wild-type p53 function in tumor cells carrying mutant p53, re-enabling the natural tumor suppression pathway.\n\n\nTargeted Drug Delivery\nEngineering novel delivery systems that ensure therapeutic agents reach tumor cells with high specificity, minimizing systemic toxicity and maximizing efficacy.\n\n\nBiomarker Discovery\nIdentifying predictive biomarkers for patient stratification, enabling personalized treatment approaches that match patients with the therapies most likely to benefit them."
+    "objectID": "about.html#our-mission",
+    "href": "about.html#our-mission",
+    "title": "About",
+    "section": "Our Mission",
+    "text": "Our Mission\nOUR MISSION\nTo pioneer the next generation of p53 tumor-specific therapeutics — transforming decades of molecular discovery into targeted cancer treatments that reduce the global burden of this disease.\n\n\n\n\nThe Science\nWe focus on Gain-Of-Function (GOF) p53 mutations — missense mutations that not only eliminate p53’s tumor suppressor function but actively drive cancer development, metastasis, and drug resistance. By understanding this mechanism, we engineer therapeutically beneficial genes driven by GOF mutated p53 to create cancer-killing agents.\n\n\n\n\n\nThe Vision\nA world where p53 mutations — present in more than 50% of all human cancers — are no longer a death sentence, but a targetable vulnerability. Institute 53 is building the science, the tools, and the partnerships to make this vision a reality."
   },
   {
-    "objectID": "research.html#from-bench-to-bedside",
-    "href": "research.html#from-bench-to-bedside",
-    "title": "Research",
-    "section": "From Bench to Bedside",
-    "text": "From Bench to Bedside\nOur translational research pipeline moves promising discoveries through preclinical validation and into clinical trials. We work closely with academic partners, pharmaceutical companies, and regulatory agencies to accelerate the path from laboratory breakthrough to approved therapy.\nView Our Publications"
+    "objectID": "about.html#governing-board",
+    "href": "about.html#governing-board",
+    "title": "About",
+    "section": "Governing Board",
+    "text": "Governing Board\n\n\nJohn Minna MD (University of Texas Southwestern Medical Center, link)\nJack Roth, MD FACS (MD Anderson Cancer Center, link)\nHua Lu, MB, PhD (Tulane University, link)\nAndrei Bakin, PhD (Roswell Park Comprehensive Cancer Center, link)\nStephen Jones, PhD (Frederick National Laboratory for Cancer Research, link) PRESIDENT\nGeovanni Blandino, MD (Regina Elena National Cancer Institute, Rome, ITALY, link)\nRoger Abounader, M.D., Ph.D. (UVA Cancer Center, Associate Director of Basic Sciences, link)\nAhmad Waseem PhD FHEA Sigma Xi, Emeritus Professor of Molecular and Cellular Oral Biology, Chair of the Board of Trustees, Friends of Researchers in the Indian subcontinent.\nAndrew Yeudall DDS, PhD (Augusta University, link) TREASURER\nSwati Palit Deb, PhD (Virginia Common University, link)\nSumitra Deb, PhD (Institute 53: Advancing p53 Cancer Therapeutics) SECRETARY\nBrad Windle, PhD (Institute 53: Advancing p53 Cancer Therapeutics)\nArnab Roy (Priceline)"
+  },
+  {
+    "objectID": "about.html#want-to-learn-more",
+    "href": "about.html#want-to-learn-more",
+    "title": "About",
+    "section": "Want to Learn More?",
+    "text": "Want to Learn More?\nGet in Touch"
   },
   {
     "objectID": "education.html",
@@ -75,6 +82,34 @@
     "title": "Education",
     "section": "Apply Today",
     "text": "Apply Today\nJoin a community of exceptional scientists dedicated to reducing the global cancer burden. Applications are reviewed on a rolling basis.\nSubmit Application"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "OUR RESEARCH\n\n\nAdvancing the frontiers of precision oncology through groundbreaking molecular research and targeted therapy development."
+  },
+  {
+    "objectID": "research.html#our-research-focus",
+    "href": "research.html#our-research-focus",
+    "title": "Research",
+    "section": "Our Research Focus",
+    "text": "Our Research Focus\nAt Institute 53, we are at the forefront of p53 cancer research, developing next-generation therapeutics that selectively target tumor cells while sparing healthy tissue. Our multidisciplinary approach combines molecular biology, computational chemistry, and clinical translation to create safe, effective treatments."
+  },
+  {
+    "objectID": "research.html#research-areas",
+    "href": "research.html#research-areas",
+    "title": "Research",
+    "section": "Research Areas",
+    "text": "Research Areas\n\n\np53 Reactivation\nDeveloping small molecules and peptides that restore wild-type p53 function in tumor cells carrying mutant p53, re-enabling the natural tumor suppression pathway.\n\n\nTargeted Drug Delivery\nEngineering novel delivery systems that ensure therapeutic agents reach tumor cells with high specificity, minimizing systemic toxicity and maximizing efficacy.\n\n\nBiomarker Discovery\nIdentifying predictive biomarkers for patient stratification, enabling personalized treatment approaches that match patients with the therapies most likely to benefit them."
+  },
+  {
+    "objectID": "research.html#from-bench-to-bedside",
+    "href": "research.html#from-bench-to-bedside",
+    "title": "Research",
+    "section": "From Bench to Bedside",
+    "text": "From Bench to Bedside\nOur translational research pipeline moves promising discoveries through preclinical validation and into clinical trials. We work closely with academic partners, pharmaceutical companies, and regulatory agencies to accelerate the path from laboratory breakthrough to approved therapy.\nView Our Publications"
   },
   {
     "objectID": "collaborate.html",
