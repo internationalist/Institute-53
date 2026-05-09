@@ -6,51 +6,51 @@ website:
   navbar:
     background: "#1a1a1a"
     foreground: "#ffffff"
-    logo: images/logo.png
+    logo: images/logo_modified.png
     left:
       - text: "Home"
         href: index.qmd
       - text: "Research"
         href: research.qmd
-      - text: "Education"
-        href: education.qmd
+      # - text: "Education"
+      #   href: education.qmd
       - text: "Collaborate"
         href: collaborate.qmd
     right:
-      - icon: facebook
-        href: https://facebook.com
-      - icon: linkedin
-        href: https://linkedin.com
-      - icon: twitter-x
-        href: https://x.com
+      # - icon: facebook
+      #   href: https://facebook.com
+      # - icon: linkedin
+      #   href: https://linkedin.com
+      # - icon: twitter-x
+      #   href: https://x.com
       - text: "Contact"
         href: contact.qmd
   page-footer:
     background: "#020a24"
     foreground: "#b8c3da"
+    # left: |
+    #   <div class="footer-brand-block">
+    #     <a href="index.html" class="footer-brand-link">
+    #       <img src="images/logo_modified.png" alt="Institute 53 logo" class="footer-brand-logo" style="width: 120px; height: auto; max-width: none;">
+    #     </a>
+    #     <p>Institute 53 is a leading global research organization dedicated to pioneering p53 tumor-specific therapies and advancing scientific education to reduce the global cancer burden.</p>
+    #   </div>
     left: |
-      <div class="footer-brand-block">
-        <a href="index.html" class="footer-brand-link">
-          <img src="logo.png" alt="Institute 53 logo" class="footer-brand-logo" style="width: 120px; height: auto; max-width: none;">
-        </a>
-        <p>Institute 53 is a leading global research organization dedicated to pioneering p53 tumor-specific therapies and advancing scientific education to reduce the global cancer burden.</p>
-      </div>
-    center: |
       <div class="footer-col-block">
         <h6>HEADQUARTERS</h6>
-        <p>53 Research Way<br>
-        Kendall Square<br>
-        Cambridge, MA 02142<br>
+        <p>2809 Emerywood Parkway<br>
+        Suite 550<br>
+        Richmond, VA 23294<br>
         United States</p>
       </div>
+    center: |
     right: |
-      <div class="footer-right-grid">
       <div class="footer-col-block">
       <h6>CONTACT</h6>
-      <p>E: global@institute53.org<br>
-      T: +1 (617) 555-0153<br>
-      F: +1 (617) 555-0154</p>
-      </div>
+      <p>E: info@institute53.org<br>
+      T: +1 (804) 651-1141</p>
+      </div>    
+      <!--<div class="footer-right-grid">
       <div class="footer-col-block">
       <h6>CONNECT</h6>
       <div class="footer-socials">
@@ -62,7 +62,7 @@ website:
       <a href="https://tiktok.com" class="footer-social social-tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
       </div>
       </div>
-      </div>
+      </div>-->
 
 format:
   html:
