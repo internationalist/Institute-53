@@ -87,8 +87,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./images/logo_modified.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo_modified.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -106,30 +106,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./education.html"> 
-<span class="menu-text">Education</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./collaborate.html"> 
 <span class="menu-text">Collaborate</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://facebook.com"> <i class="bi bi-facebook" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com"> <i class="bi bi-twitter-x" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
@@ -153,12 +134,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="hero-section">
   <div class="hero-content">
     <span class="hero-label">PIONEERING P53 THERAPEUTICS</span>
-    <h1>The Future of Cancer Research is Here.</h1>
-    <p>Advancing tumor-specific therapies through rigorous scientific education and revolutionary laboratory research to reduce the global cancer burden.</p>
-    <div class="hero-buttons">
+    <h1>The Future of Cancer Research is Here</h1>
+    <h3>Advancing innovative tumor-specific therapies through revolutionary research to shatter the global cancer burden</h3>
+    <blockquote class="mission-statement blockquote">
+      <p>Current cancer research needs supercharging so that leaps in next-generation therapies become commonplace. At Institute 53, we dream bigger, we flip the script on cancer, and we definitely don't play by the rules. Institute 53 scientists are not content with the next step — they are going far beyond “taking it up a notch.”</p>
+    </blockquote>
+    <!--<div class="hero-buttons">
       <a href="research.html" class="btn btn-primary btn-lg">Explore Research</a>
       <a href="collaborate.html" class="btn btn-outline-light btn-lg">Join the Network</a>
-    </div>
+    </div>-->
   </div>
   <div class="hero-image">
     <img src="images/stock-microscope.jpg" alt="Microscope">
@@ -172,12 +156,43 @@ ul.task-list li input[type="checkbox"] {
       <img src="images/stock-cell.jpg" alt="Cell research" class="parallax-image">
     </div>
     <div class="section-intro-content">
-      <p>At Institute 53, our core objective is to reduce the global cancer burden by engineering safe, tumor-specific therapies. We bridge the gap between scientific discovery and effective clinical translation, providing advanced education for scientists to transform medical advancements into life-saving realities globally.</p>
+      <h4 class="section-intro-subheader">A Case of Dr. Jekyll and Mr. Hyde</h4>
+      <p>The p53 gene and p53 protein have been a major focus in cancer research for more than 45 years, and much has been learned to leverage discoveries into clever strategies for killing cancer. This continues to remain a challenge that results from the remarkable ability of p53 to play the dichotomous role of Dr. Jekyll fighting against cancer and Mr. Hyde causing cancer. Throughout the years of scientists trying to target p53 therapeutically, the Mr. Hyde in p53 has stayed a step ahead, so at Institute 53, we have veered off in a completely new direction; to trick the Mr. Hyde of p53 to do the cancer killing for us. <button class="learn-more-btn" onclick="document.getElementById('science-modal').classList.add('active');document.body.style.overflow='hidden'">Learn More →</button></p>
     </div>
   </div>
 </div>
 
+<!-- Science Modal -->
+<div id="science-modal" class="science-modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.style.overflow=''}">  
+  <div class="science-modal-content">
+    <button class="science-modal-close" onclick="document.getElementById('science-modal').classList.remove('active');document.body.style.overflow=''">×</button>
+    <span class="section-label">THE SCIENCE BEHIND INSTITUTE 53</span>
+    <h2>The Science Supporting Institute 53</h2>
+    <p>p53 was first discovered as an oncogene and oncoprotein when mutated, and later as a tumor suppressor in its wildtype form, earning it the moniker <em>Guardian of the Genome</em>. This dichotomy — suppressing cancer and promoting cancer — is unique in the field of cancer research.</p>
+    <p>There are two general types of p53 mutations that cause cancer: those that merely knockout the p53 gene (such as a deletion), and missense mutations predominantly within p53's DNA Binding Domain that not only eliminate p53's tumor suppressor function but also unleash p53's cancer-promoting properties. These missense mutations are referred to as Gain-Of-Function (GOF), in which new transcriptional activation of genes results — many of which drive cancer development, metastasis, and drug resistance.</p>
+    <p>It has long been intriguing how so many different missense mutations in p53 could generate the same type of novel gene activation properties. GOF mutated p53 exhibits promoter binding for activated genes not through direct DNA binding as wildtype p53 does, but through interaction with transcription factors such as Sp1 and ETS1. At least two factors define promoters that bind GOF mutated p53: multiplicity of transcription factor binding sites and appropriate spacing of these sites.</p>
+    <p>With this mechanistic insight, investigators at Institute 53 have developed therapeutically beneficial genes driven by GOF mutated p53 to create cancer-killing agents. A new era of gene therapy for cancer treatment is now on the horizon.</p>
+    <h4 class="section-intro-subheader" style="margin-top:2rem;">Cancers in Our Sights</h4>
+    <ul class="science-cancer-list">
+      <li>Lung Cancer <span>(including the deadly Small Cell Lung Cancer)</span></li>
+      <li>Ovarian Cancer</li>
+      <li>Pancreatic Cancer</li>
+      <li>Esophageal Cancer</li>
+      <li>Head and Neck Cancer</li>
+    </ul>
+    <h4 class="section-intro-subheader" style="margin-top:2rem;">A Word from Our Founder</h4>
+    <p><strong>Dr. Sumitra Deb</strong> is founder and director of Institute 53 — an institute that is the culmination of p53 investigation over the past 40 years. Much of the discovery of p53's cancer-causing properties has been pioneered by Dr. Deb. With a distinguished record of p53 research and over 30 years of deciphering how p53 mutations contribute to oncogenesis, he has played a leading role in the biochemical understanding of oncogenic phenotypes of mutant p53. Dr. Deb has served as editor of three books, co-chaired NIH study sections, chaired a cancer-research funding committee, and assembled an exceptional team of collaborators to drive Institute 53's mission forward.</p>
+  </div>
+</div>
+
 <script>
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    document.getElementById('science-modal').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
   const parallaxImage = document.querySelector('.section-intro .parallax-image');
   const container = document.querySelector('.section-intro');
@@ -195,6 +210,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+<!--
+```{=html}
 <div class="section-translation">
   <div class="translation-image">
     <img src="images/dna-1.jpg" alt="DNA Helix">
@@ -206,6 +223,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <a href="education.html" class="btn btn-outline-light btn-lg">ExploreCurriculum</a>
   </div>
 </div>
+```
+
+```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const translationImage = document.querySelector('.section-translation .translation-image img');
@@ -252,6 +272,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+```
+-->
+<!--
+```{=html}
 <div class="section-network">
   <div class="network-image">
     <img src="images/dna-2.jpg" alt="DNA Research">
@@ -261,6 +285,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <p>Leading the global fight against cancer, Institute 53 focuses on the next generation of therapeutics that selectively target tumor cells through p53 reactivation. Our research translates groundbreaking molecular chemistry into safe, effective clinical potentials, aiming to reduce the global burden of cancer through innovation and precision.</p>
   </div>
 </div>
+```
+
+```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const networkImage = document.querySelector('.section-network .network-image img');
@@ -307,6 +334,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+```
+-->
 <div class="section-join">
   <h2>Join the Network</h2>
   <a href="collaborate.html" class="btn btn-primary btn-lg">Become a Collaborator</a>
@@ -324,13 +353,13 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Restoring the tumor-suppressive power of p53 to develop therapies that target cancer cells with unmatched genomic precision.</p>
 </section>
 </div>
-<div class="pillar-card">
-<p><img src="images/neucleus.png" class="img-fluid"></p>
-<section id="world-class-education" class="level5">
-<h5 data-anchor-id="world-class-education">World-Class Education</h5>
-<p>Providing rigorous academic programs that equip the next generation of global researchers to translate breakthroughs into effective therapies.</p>
-</section>
-</div>
+<!-- ::: {.pillar-card}
+![](images/neucleus.png)
+
+##### World-Class Education
+
+Providing rigorous academic programs that equip the next generation of global researchers to translate breakthroughs into effective therapies.
+::: -->
 <div class="pillar-card">
 <p><img src="images/globe.png" class="img-fluid"></p>
 <section id="global-translation" class="level5">
@@ -755,42 +784,40 @@ document.addEventListener('DOMContentLoaded', function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<div class="footer-brand-block">
-<a href="index.html" class="footer-brand-link"> <img src="logo.png" alt="Institute 53 logo" class="footer-brand-logo" style="width: 120px; height: auto; max-width: none;"> </a>
-<p>
-Institute 53 is a leading global research organization dedicated to pioneering p53 tumor-specific therapies and advancing scientific education to reduce the global cancer burden.
-</p>
-</div>
-</div>   
-    <div class="nav-footer-center">
 <div class="footer-col-block">
 <h6>
 HEADQUARTERS
 </h6>
 <p>
-53 Research Way<br> Kendall Square<br> Cambridge, MA 02142<br> United States
+2809 Emerywood Parkway<br> Suite 550<br> Richmond, VA 23294<br> United States
 </p>
 </div>
-</div>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
-<div class="footer-right-grid">
 <div class="footer-col-block">
 <h6>
 CONTACT
 </h6>
 <p>
-E: global@institute53.org<br> T: +1 (617) 555-0153<br> F: +1 (617) 555-0154
+E: info@institute53.org<br> T: +1 (804) 651-1141
 </p>
 </div>
+<!--<div class="footer-right-grid">
 <div class="footer-col-block">
-<h6>
-CONNECT
-</h6>
+<h6>CONNECT</h6>
 <div class="footer-socials">
-<p><a href="https://facebook.com" class="footer-social social-facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a> <a href="https://instagram.com" class="footer-social social-instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a> <a href="https://youtube.com" class="footer-social social-youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a> <a href="https://x.com" class="footer-social social-x" aria-label="X"><i class="bi bi-twitter-x"></i></a> <a href="https://linkedin.com" class="footer-social social-linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://tiktok.com" class="footer-social social-tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a></p>
+<a href="https://facebook.com" class="footer-social social-facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+<a href="https://instagram.com" class="footer-social social-instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+<a href="https://youtube.com" class="footer-social social-youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+<a href="https://x.com" class="footer-social social-x" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+<a href="https://linkedin.com" class="footer-social social-linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a href="https://tiktok.com" class="footer-social social-tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
 </div>
 </div>
-</div>
+</div>-->
 </div>
   </div>
 </footer>
