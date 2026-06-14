@@ -1,45 +1,52 @@
 [
   {
-    "objectID": "Institute-53.html",
-    "href": "Institute-53.html",
-    "title": "Institute-53",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "OUR RESEARCH\n\n\nAdvancing the frontiers of precision oncology through groundbreaking molecular research and targeted therapy development."
   },
   {
-    "objectID": "Institute-53.html#quarto",
-    "href": "Institute-53.html#quarto",
-    "title": "Institute-53",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "objectID": "research.html#our-research-focus",
+    "href": "research.html#our-research-focus",
+    "title": "Research",
+    "section": "Our Research Focus",
+    "text": "Our Research Focus\nAt Institute 53, we are at the forefront of p53 cancer research, developing next-generation therapeutics that selectively target tumor cells while sparing healthy tissue. Our multidisciplinary approach combines molecular biology, computational chemistry, and clinical translation to create safe, effective treatments."
   },
   {
-    "objectID": "index.html#transforming-tumor-biology-into-targeted-therapies",
-    "href": "index.html#transforming-tumor-biology-into-targeted-therapies",
-    "title": "",
-    "section": "Transforming Tumor Biology into Targeted Therapies",
-    "text": "Transforming Tumor Biology into Targeted Therapies\n\n\n\n\nPrecision Oncology\nRestoring the tumor-suppressive power of p53 to develop therapies that target cancer cells with unmatched genomic precision.\n\n\n\n\n\n\nGlobal Translation\nDriving the reach of oncology advancements to healthcare systems worldwide, reducing the global cancer burden through strategic translation."
+    "objectID": "research.html#research-areas",
+    "href": "research.html#research-areas",
+    "title": "Research",
+    "section": "Research Areas",
+    "text": "Research Areas\n\n\np53 Reactivation\nDeveloping small molecules and peptides that restore wild-type p53 function in tumor cells carrying mutant p53, re-enabling the natural tumor suppression pathway.\n\n\nTargeted Drug Delivery\nEngineering novel delivery systems that ensure therapeutic agents reach tumor cells with high specificity, minimizing systemic toxicity and maximizing efficacy.\n\n\nBiomarker Discovery\nIdentifying predictive biomarkers for patient stratification, enabling personalized treatment approaches that match patients with the therapies most likely to benefit them."
+  },
+  {
+    "objectID": "research.html#from-bench-to-bedside",
+    "href": "research.html#from-bench-to-bedside",
+    "title": "Research",
+    "section": "From Bench to Bedside",
+    "text": "From Bench to Bedside\nOur translational research pipeline moves promising discoveries through preclinical validation and into clinical trials. We work closely with academic partners, pharmaceutical companies, and regulatory agencies to accelerate the path from laboratory breakthrough to approved therapy.\nView Our Publications"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Driven by science. Defined by purpose."
+    "text": "Driven by science. Defined by purpose.\n\n\nInstitute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded and directed by Dr. Sumitra Deb, Institute 53 represents the culmination of over 40 years of dedicated p53 research. Much of the discovery of p53’s cancer-causing properties has been pioneered by Dr. Deb himself — with a distinguished record spanning over 30 years of deciphering how p53 mutations contribute to oncogenesis, he has played a leading role in the biochemical understanding of oncogenic phenotypes of mutant p53. Dr. Deb has served as editor of three books, co-chaired NIH study sections, chaired a cancer-research funding committee, and assembled an exceptional team of collaborators to drive Institute 53’s mission forward.\nOur institute operates at the intersection of molecular biology, genomics, and clinical oncology, with a singular focus: to harness the dual nature of p53 and turn cancer’s own mechanisms against itself."
   },
   {
     "objectID": "about.html#our-story",
     "href": "about.html#our-story",
     "title": "About",
-    "section": "Our Story",
-    "text": "Our Story\nInstitute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded by Dr. Sumitra Deb, Institute 53 represents the culmination of over 40 years of dedicated p53 research, bringing together world-class scientists to translate fundamental discoveries into life-saving therapies.\nOur institute operates at the intersection of molecular biology, genomics, and clinical oncology, with a singular focus: to harness the dual nature of p53 and turn cancer’s own mechanisms against itself."
+    "section": "",
+    "text": "Institute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded and directed by Dr. Sumitra Deb, Institute 53 represents the culmination of over 40 years of dedicated p53 research. Much of the discovery of p53’s cancer-causing properties has been pioneered by Dr. Deb himself — with a distinguished record spanning over 30 years of deciphering how p53 mutations contribute to oncogenesis, he has played a leading role in the biochemical understanding of oncogenic phenotypes of mutant p53. Dr. Deb has served as editor of three books, co-chaired NIH study sections, chaired a cancer-research funding committee, and assembled an exceptional team of collaborators to drive Institute 53’s mission forward.\nOur institute operates at the intersection of molecular biology, genomics, and clinical oncology, with a singular focus: to harness the dual nature of p53 and turn cancer’s own mechanisms against itself."
   },
   {
     "objectID": "about.html#our-mission",
     "href": "about.html#our-mission",
     "title": "About",
     "section": "Our Mission",
-    "text": "Our Mission\nOUR MISSION\nTo pioneer the next generation of p53 tumor-specific therapeutics — transforming decades of molecular discovery into targeted cancer treatments that reduce the global burden of this disease.\n\n\n\n\nThe Science\nWe focus on Gain-Of-Function (GOF) p53 mutations — missense mutations that not only eliminate p53’s tumor suppressor function but actively drive cancer development, metastasis, and drug resistance. By understanding this mechanism, we engineer therapeutically beneficial genes driven by GOF mutated p53 to create cancer-killing agents.\n\n\n\n\n\nThe Vision\nA world where p53 mutations — present in more than 50% of all human cancers — are no longer a death sentence, but a targetable vulnerability. Institute 53 is building the science, the tools, and the partnerships to make this vision a reality."
+    "text": "Our Mission\nTo pioneer the next generation of p53 tumor-specific therapeutics — transforming decades of molecular discovery into targeted cancer treatments that reduce the global burden of this disease.\n\n\n\n\nThe Science\nWe focus on Gain-Of-Function (GOF) p53 mutations — missense mutations that not only eliminate p53’s tumor suppressor function but actively drive cancer development, metastasis, and drug resistance. By understanding this mechanism, we engineer therapeutically beneficial genes driven by GOF mutated p53 to create cancer-killing agents.\n\n\n\n\n\nThe Vision\nA world where p53 mutations — present in more than 50% of all human cancers — are no longer a death sentence, but a targetable vulnerability. Institute 53 is building the science, the tools, and the partnerships to make this vision a reality."
   },
   {
     "objectID": "about.html#governing-board",
@@ -84,32 +91,18 @@
     "text": "Apply Today\nJoin a community of exceptional scientists dedicated to reducing the global cancer burden. Applications are reviewed on a rolling basis.\nSubmit Application"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "Institute-53.html",
+    "href": "Institute-53.html",
+    "title": "Institute-53",
     "section": "",
-    "text": "OUR RESEARCH\n\n\nAdvancing the frontiers of precision oncology through groundbreaking molecular research and targeted therapy development."
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
   },
   {
-    "objectID": "research.html#our-research-focus",
-    "href": "research.html#our-research-focus",
-    "title": "Research",
-    "section": "Our Research Focus",
-    "text": "Our Research Focus\nAt Institute 53, we are at the forefront of p53 cancer research, developing next-generation therapeutics that selectively target tumor cells while sparing healthy tissue. Our multidisciplinary approach combines molecular biology, computational chemistry, and clinical translation to create safe, effective treatments."
-  },
-  {
-    "objectID": "research.html#research-areas",
-    "href": "research.html#research-areas",
-    "title": "Research",
-    "section": "Research Areas",
-    "text": "Research Areas\n\n\np53 Reactivation\nDeveloping small molecules and peptides that restore wild-type p53 function in tumor cells carrying mutant p53, re-enabling the natural tumor suppression pathway.\n\n\nTargeted Drug Delivery\nEngineering novel delivery systems that ensure therapeutic agents reach tumor cells with high specificity, minimizing systemic toxicity and maximizing efficacy.\n\n\nBiomarker Discovery\nIdentifying predictive biomarkers for patient stratification, enabling personalized treatment approaches that match patients with the therapies most likely to benefit them."
-  },
-  {
-    "objectID": "research.html#from-bench-to-bedside",
-    "href": "research.html#from-bench-to-bedside",
-    "title": "Research",
-    "section": "From Bench to Bedside",
-    "text": "From Bench to Bedside\nOur translational research pipeline moves promising discoveries through preclinical validation and into clinical trials. We work closely with academic partners, pharmaceutical companies, and regulatory agencies to accelerate the path from laboratory breakthrough to approved therapy.\nView Our Publications"
+    "objectID": "Institute-53.html#quarto",
+    "href": "Institute-53.html#quarto",
+    "title": "Institute-53",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
   },
   {
     "objectID": "collaborate.html",
@@ -159,5 +152,12 @@
     "title": "Contact",
     "section": "General Inquiries",
     "text": "General Inquiries\nFor general inquiries, partnership proposals, or media requests, please email us at info@institute53.org. Our team typically responds within 2-3 business days.\nFor educational program applications, visit our Education page."
+  },
+  {
+    "objectID": "index.html#transforming-tumor-biology-into-targeted-therapies",
+    "href": "index.html#transforming-tumor-biology-into-targeted-therapies",
+    "title": "",
+    "section": "Transforming Tumor Biology into Targeted Therapies",
+    "text": "Transforming Tumor Biology into Targeted Therapies\n\n\n\n\nPrecision Oncology\nRestoring the tumor-suppressive power of p53 to develop therapies that target cancer cells with unmatched genomic precision.\n\n\n\n\n\n\nGlobal Translation\nDriving the reach of oncology advancements to healthcare systems worldwide, reducing the global cancer burden through strategic translation."
   }
 ]
