@@ -2,30 +2,26 @@
 title: "About"
 ---
 
-::: {.hero-section style="min-height: 0; padding: 4rem 6rem;"}
+::: {.hero-section style="min-height: 0; padding: 4rem 6rem 1.5rem;"}
 ::: {.hero-content style="width: 100%;"}
 
 # About Institute 53
 
 Driven by science. Defined by purpose.
-:::
-:::
 
-::: {.section-intro style="padding-top: 1.5rem;"}
-::: {.container}
+::: {.full-width-content}
 ## Our Story
 
-Institute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded by [Dr. Sumitra Deb](https://www.linkedin.com/in/sumitra-deb-09889610/?skipRedirect=true), Institute 53 represents the culmination of over 40 years of dedicated p53 research, bringing together world-class scientists to translate fundamental discoveries into life-saving therapies.
+Institute 53 is a pioneering research organization named after the p53 gene — one of the most studied and consequential genes in the history of cancer biology. Founded and directed by [Dr. Sumitra Deb](https://www.linkedin.com/in/sumitra-deb-09889610/?skipRedirect=true), Institute 53 represents the culmination of over 40 years of dedicated p53 research. Much of the discovery of p53's cancer-causing properties has been pioneered by Dr. Deb himself — with a distinguished record spanning over 30 years of deciphering how p53 mutations contribute to oncogenesis, he has played a leading role in the biochemical understanding of oncogenic phenotypes of mutant p53. Dr. Deb has served as editor of three books, co-chaired NIH study sections, chaired a cancer-research funding committee, and assembled an exceptional team of collaborators to drive Institute 53's mission forward.
 
 Our institute operates at the intersection of molecular biology, genomics, and clinical oncology, with a singular focus: to harness the dual nature of p53 and turn cancer's own mechanisms against itself.
+:::
 :::
 :::
 
 ::: {.section-translation}
 ::: {.container}
 ## Our Mission
-
-[OUR MISSION]{.section-label}
 
 To pioneer the next generation of p53 tumor-specific therapeutics — transforming decades of molecular discovery into targeted cancer treatments that reduce the global burden of this disease.
 

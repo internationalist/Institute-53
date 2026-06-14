@@ -2,7 +2,7 @@
 title: "Contact"
 ---
 
-::: {.hero-section style="min-height: 40vh;"}
+::: {.hero-section style="min-height: 0; padding: 4rem 6rem 1.5rem;"}
 ::: {.hero-content}
 [GET IN TOUCH]{.hero-label}
 
@@ -12,7 +12,7 @@ We'd love to hear from you.
 :::
 :::
 
-::: {.section-intro}
+::: {.section-intro style="padding-top: 0; padding-bottom: 1.5rem;"}
 ::: {.container}
 ## Connect With Us
 

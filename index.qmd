@@ -5,11 +5,10 @@ page-layout: custom
 ```{=html}
 <div class="hero-section">
   <div class="hero-content">
-    <span class="hero-label">PIONEERING P53 THERAPEUTICS</span>
     <h1>The Future of Cancer Research is Here</h1>
     <h3>Advancing innovative tumor-specific therapies through revolutionary research to shatter the global cancer burden</h3>
     <blockquote class="mission-statement">
-      <p>Current cancer research needs supercharging so that leaps in next-generation therapies become commonplace. At Institute 53, we dream bigger, we flip the script on cancer, and we definitely don't play by the rules. Institute 53 scientists are not content with the next step — they are going far beyond &ldquo;taking it up a notch.&rdquo;</p>
+      <p>Current cancer research needs supercharging so that leaps in next-generation therapies become commonplace. At Institute 53, we dream bigger, we flip the script on cancer, and we definitely don't play by the rules. Institute 53 scientists are not content with the next step — they are going far beyond &ldquo;taking it up another notch.&rdquo;</p>
     </blockquote>
     <!--<div class="hero-buttons">
       <a href="research.html" class="btn btn-primary btn-lg">Explore Research</a>
@@ -29,15 +28,15 @@ page-layout: custom
     </div>
     <div class="section-intro-content">
       <h4 class="section-intro-subheader">A Case of Dr. Jekyll and Mr. Hyde</h4>
-      <p>The p53 gene and p53 protein have been a major focus in cancer research for more than 45 years, and much has been learned to leverage discoveries into clever strategies for killing cancer. This continues to remain a challenge that results from the remarkable ability of p53 to play the dichotomous role of Dr. Jekyll fighting against cancer and Mr. Hyde causing cancer. Throughout the years of scientists trying to target p53 therapeutically, the Mr. Hyde in p53 has stayed a step ahead, so at Institute 53, we have veered off in a completely new direction; to trick the Mr. Hyde of p53 to do the cancer killing for us. <button class="learn-more-btn" onclick="document.getElementById('science-modal').classList.add('active'); document.body.style.overflow='hidden'; document.body.style.position='fixed'; document.body.style.width='100%';">Learn More &rarr;</button></p>
+      <p>The p53 gene and p53 protein have been a major focus in cancer research for more than 45 years, and much has been learned to leverage discoveries into clever strategies for killing cancer. This continues to remain a challenge that results from the remarkable ability of p53 to play the dichotomous role of Dr. Jekyll fighting against cancer and Mr. Hyde causing cancer. Throughout the years of scientists trying to target p53 therapeutically, the Mr. Hyde in p53 has stayed a step ahead, so at Institute 53, we have veered off in a completely new direction; to trick the Mr. Hyde of p53 to do the cancer killing for us. <button class="learn-more-btn" onclick="var y=window.scrollY; document.getElementById('science-modal').classList.add('active'); document.body.style.overflow='hidden'; document.body.style.position='fixed'; document.body.style.top='-'+y+'px'; document.body.style.width='100%'; window.__scrollY=y;">Learn More &rarr;</button></p>
     </div>
   </div>
 </div>
 
 <!-- Science Modal -->
-<div id="science-modal" class="science-modal-overlay" onclick="if(event.target===this){this.classList.remove('active'); document.body.style.overflow=''; document.body.style.position=''; document.body.style.width='';}">  
+<div id="science-modal" class="science-modal-overlay" onclick="if(event.target===this){this.classList.remove('active'); document.body.style.overflow=''; document.body.style.position=''; document.body.style.top=''; document.body.style.width=''; window.scrollTo(0,window.__scrollY||0);}">  
   <div class="science-modal-content">
-    <button class="science-modal-close" onclick="document.getElementById('science-modal').classList.remove('active'); document.body.style.overflow=''; document.body.style.position=''; document.body.style.width='';">&times;</button>
+    <button class="science-modal-close" onclick="document.getElementById('science-modal').classList.remove('active'); document.body.style.overflow=''; document.body.style.position=''; document.body.style.top=''; document.body.style.width=''; window.scrollTo(0,window.__scrollY||0);">&times;</button>
     <span class="section-label">THE SCIENCE BEHIND INSTITUTE 53</span>
     <h2>The Science Supporting Institute 53</h2>
     <p>p53 was first discovered as an oncogene and oncoprotein when mutated, and later as a tumor suppressor in its wildtype form, earning it the moniker <em>Guardian of the Genome</em>. This dichotomy — suppressing cancer and promoting cancer — is unique in the field of cancer research.</p>
@@ -52,8 +51,8 @@ page-layout: custom
       <li>Esophageal Cancer</li>
       <li>Head and Neck Cancer</li>
     </ul>
-    <h4 class="section-intro-subheader" style="margin-top:2rem;">A Word from Our Founder</h4>
-    <p><a href="https://www.linkedin.com/in/sumitra-deb-09889610/?skipRedirect=true"><strong>Dr. Sumitra Deb</strong></a> is founder and director of Institute 53 — an institute that is the culmination of p53 investigation over the past 40 years. Much of the discovery of p53's cancer-causing properties has been pioneered by Dr. Deb. With a distinguished record of p53 research and over 30 years of deciphering how p53 mutations contribute to oncogenesis, he has played a leading role in the biochemical understanding of oncogenic phenotypes of mutant p53. Dr. Deb has served as editor of three books, co-chaired NIH study sections, chaired a cancer-research funding committee, and assembled an exceptional team of collaborators to drive Institute 53's mission forward.</p>
+    <!--<h4 class="section-intro-subheader" style="margin-top:2rem;">A Word from Our Founder</h4>
+    <p><a href="https://www.linkedin.com/in/sumitra-deb-09889610/?skipRedirect=true"><strong>Dr. Sumitra Deb</strong></a> is founder and director of Institute 53 — an institute that is the culmination of p53 investigation over the past 40 years. Much of the discovery of p53's cancer-causing properties has been pioneered by Dr. Deb. With a distinguished record of p53 research and over 30 years of deciphering how p53 mutations contribute to oncogenesis, he has played a leading role in the biochemical understanding of oncogenic phenotypes of mutant p53. Dr. Deb has served as editor of three books, co-chaired NIH study sections, chaired a cancer-research funding committee, and assembled an exceptional team of collaborators to drive Institute 53's mission forward.</p>-->
   </div>
 </div>
 
@@ -63,7 +62,9 @@ document.addEventListener('keydown', function(e) {
     document.getElementById('science-modal').classList.remove('active');
     document.body.style.overflow = '';
     document.body.style.position = '';
+    document.body.style.top = '';
     document.body.style.width = '';
+    window.scrollTo(0, window.__scrollY || 0);
   }
 });
 

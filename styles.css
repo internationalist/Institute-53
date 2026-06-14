@@ -157,11 +157,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 4rem 4rem 4rem 6rem;
+  justify-content: flex-start;
+  padding: 0.5rem 4rem 0 6rem;
   width: 50%;
   position: relative;
   z-index: 1;
+}
+
+.hero-content > :last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .hero-image {
@@ -183,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-section h1 {
   font-size: 3.5rem;
+  margin-top: 0;
   margin-bottom: 1.5rem;
   font-weight: 700;
 }
@@ -194,33 +200,42 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
+.full-width-content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.full-width-content p {
+  max-width: none;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+/* Override Cosmo theme section margin-bottom */
+.hero-content,
+.section-translation,
+.section-translation section.level2,
+.section-translation section {
+  margin-bottom: 0 !important;
+}
+
 /* ===== Mission Statement Pull-Quote ===== */
 .mission-statement {
-  border-left: 4px solid #00d4ff;
   margin: 1.5rem 0 2rem;
   padding: 1rem 1.25rem 1rem 1.5rem;
-  background: rgba(0, 212, 255, 0.06);
-  border-radius: 0 6px 6px 0;
-  position: relative;
   max-width: 550px;
 }
 
 .mission-statement::before {
-  content: '\201C';
-  position: absolute;
-  top: -0.5rem;
-  left: 1rem;
-  font-size: 4rem;
-  line-height: 1;
-  color: #00d4ff;
-  opacity: 0.4;
-  font-family: 'Space Grotesk', sans-serif;
-  pointer-events: none;
+  content: '';
 }
 
 .mission-statement p {
   font-size: 1.1rem !important;
-  font-style: italic;
+  font-style: normal;
   line-height: 1.75;
   opacity: 1 !important;
   color: rgba(255, 255, 255, 0.92);
@@ -449,6 +464,22 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   padding: 4rem 3rem 4rem 3rem;
   background-color: #1a1a1a;
+}
+
+.section-translation {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.section-translation > *:first-child,
+.section-translation > *:first-child > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.section-translation h2 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .translation-content .section-label {

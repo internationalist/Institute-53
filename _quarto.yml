@@ -6,7 +6,7 @@ website:
   navbar:
     background: "#1a1a1a"
     foreground: "#ffffff"
-    logo: images/logo_modified.png
+    logo: images/logo_modified_v2.png
     left:
       - text: "Home"
         href: index.qmd
@@ -72,3 +72,7 @@ format:
     css: styles.css
     toc: false
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="icon" type="image/png" href="images/logo_v2.png">
+          <link rel="shortcut icon" type="image/png" href="images/logo_v2.png">
