@@ -25,6 +25,8 @@ website:
       #   href: https://linkedin.com
       # - icon: twitter-x
       #   href: https://x.com
+      - text: "Donate"
+        href: donate.qmd
       - text: "Contact"
         href: contact.qmd
   page-footer:

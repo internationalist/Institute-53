@@ -1,0 +1,24 @@
+---
+title: "Donate"
+---
+
+::: {.hero-section style="min-height: 0; padding: 4rem 6rem 1.5rem;"}
+::: {.hero-content}
+[SUPPORT OUR MISSION]{.hero-label}
+
+# Donate to Institute 53
+
+Your gift helps advance p53 tumor-specific therapies and reduce the global cancer burden.
+:::
+:::
+
+::: {.section-intro style="padding-top: 0; padding-bottom: 3rem;"}
+::: {.container}
+```{=html}
+<script type="module" src="https://donorbox.org/widgets.js" async></script>
+<div class="donation-form-wrapper" style="display: flex; justify-content: center;">
+  <dbox-widget campaign="general-donation-968570" type="donation_form" enable-auto-scroll="true"></dbox-widget>
+</div>
+```
+:::
+:::
