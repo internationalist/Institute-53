@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
-  z-index: 1000;
+  z-index: 2000; /* above Quarto's fixed navbar (1030) */
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -376,6 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 760px;
   width: 100%;
   max-height: 85vh;
+  max-height: 85dvh; /* visible area on mobile, excluding browser bars */
   overflow-y: auto;
   overscroll-behavior: contain;
   padding: 3rem;
@@ -947,6 +948,19 @@ h1, h2, h3, h4, h5, h6 {
   .pillars-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .science-modal-overlay {
+    padding: 1rem;
+  }
+
+  .science-modal-content {
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .science-modal-close {
+    top: 0.75rem;
+    right: 1rem;
   }
 
   .section-translation .container {
