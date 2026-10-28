@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-::: {.hero-section .about-hero}
+::: {.hero-section .page-hero}
 ::: {.hero-content style="width: 100%;"}
 
 # About Institute 53
