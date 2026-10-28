@@ -946,6 +946,15 @@ h1, h2, h3, h4, h5, h6 {
   
   .pillars-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .section-translation .container {
+    padding: 0;
+  }
+
+  .pillar-card {
+    padding: 1.5rem 0;
   }
 
   .nav-footer {
