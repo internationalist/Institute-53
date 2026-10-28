@@ -45,7 +45,7 @@ A world where p53 mutations â€” present in more than 50% of all human cancers â€
 :::
 :::
 
-::: {.section-pillars}
+::: {.section-pillars .leadership-section}
 ::: {.container}
 [LEADERSHIP]{.section-label}
 

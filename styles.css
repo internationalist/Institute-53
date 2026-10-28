@@ -950,6 +950,20 @@ h1, h2, h3, h4, h5, h6 {
     gap: 1rem;
   }
 
+  .leadership-section {
+    padding: 3rem 1.25rem;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+
+  .leadership-section .container {
+    padding: 0;
+  }
+
+  .leadership-section .founder-bio ul {
+    padding-left: 1.25rem;
+  }
+
   .science-modal-overlay {
     padding: 0.5rem;
   }
